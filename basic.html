@@ -42,9 +42,12 @@
                 width: 50%;
             }
             #quote {
-                color: magenta;
+                color: darkgray;
                 font-style: italic;
-                border: solid lightskyblue 2px;
+              
+            }
+            .book {
+                border: 4px dotted darkkhaki;
             }
 
             #bargraph {
@@ -63,10 +66,16 @@
                 border: 1px solid red;
             }
             #longer {
-                
+              width: 200px;
+                height: 10px;
+                background: greenyellow;
+                border: 1px solid red;  
             }
             #long {
-                
+               width: 100px;
+                height: 10px;
+                background: blanchedalmond;
+                border: 1px solid red; 
 
         </style>
     </head>
@@ -92,6 +101,7 @@
         <!-- Include: at least two handles for your social media accounts -->
         <!-- Tags to use: <p>, <a> -->
         <a href="https://www.google.com//" target="_blank">This is my website</a> 
+        <p>This is <a href="http://instagram.com" target="_blank">instragram.com</a> </p>
         
 
     
@@ -103,15 +113,15 @@
         <h2>My favorite meme</h2>
         <!-- Include: "large_wink.png" as an image -->
         <!-- Tags to use: <img> -->
-        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->\
-        <img src="crying-cowboys-fan-meme-viral-emily.png" height="300px" width="400px">
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <img src="crying-cowboys-fan-meme-viral-emily.png" alt="an image of a Cowboys fan crying after the team playoff defeat" height="300px" width="400px">
 
     
         <h2>Why I'm a great student</h2>
         <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
         <!-- Tags to use: <ul>, <li>, <strong> -->
         <ul> 
-            <li>I am nice and always willing to help out in class.</li>
+            <li><strong>I am nice and always willing to help out in class.</strong></li>
             <li>I partticipate when I can.</li>
             <li>I try to bring a postive outlook on class.</li> 
 
@@ -120,32 +130,33 @@
         <!-- Include: an ordered list -->
         <!-- Tags to use: <ol>, <li>, <a> -->
         <ol>
-            <li>Pink</li>
+            <li><a href="a "href="https://en.wikipedia.org/wiki/Pink_(singer)" target="_blank">Pink</a>
             <li>Joe Judge</li>
             <li>Mike Pettine</li>
             <li>Stefan Avalos</li>
-
+         </ol>
 
 
         <h2> ~ Challenge: Read my poetry ~</h2>
         <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+            <p>This is line one of my poem<br>This is lone two of my poem<br>This is line three of my poem</p>
     
 
         <h2>This is one of my favorite quotes</h2>
         <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
     
-        <h3> <p id=quote>"Every Champion Was Once A Contender Who Refused To Give Up" </p> </h3> 
+        <h3> <p id="quote">"Every Champion Was Once A Contender Who Refused To Give Up" </p> </h3> 
 
 
         <h2>These are more of my favorite books</h2>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
             <ul>
-                <li>Boys In A Cave</li>
-                <li>Dream Team</li>
-                <li>Unguarded</li>
+                <li class="book">Boys In A Cave</li>
+                <li class="book">Dream Team</li>
+                <li class="book">Unguarded</li>
             </ul>
     
         
@@ -164,11 +175,11 @@
 
         <div id="bargraph">
             <h4>Length of bars</h4>
-            <p class="bar_label">Longest</p>
+            <p class="bar_label">Friday</p>
             <div id="longest"></div>
-            <p class="bar_label">Longer</p>
+            <p class="bar_label">Saturday</p>
             <div id="longer"></div>
-            <p class="bar_label">Long</p>
+            <p class="bar_label">Sunday</p>
             <div id="long"></div>
         </div>
      
