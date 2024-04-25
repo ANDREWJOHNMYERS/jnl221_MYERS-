@@ -13,7 +13,8 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Georgia', serif;
+/*	font-family: 'Georgia', serif;*/
+	font-family: "Nunito", sans-serif;
 	background-color: whitesmoke;
 }
 h4 {
@@ -23,13 +24,29 @@ h4 {
 }
 h3 {
 	font-size: 30px;
+/*	font-family: "Zilla Slab", serif;*/
+	font-family: "Nunito", sans-serif;
+}
+p {
+	font-family: "Nunito", sans-serif;
 }
 
 
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+	p {
+	 font-size: 50px; 
+	}
+	.footer p {
+		background-color: forestgreen;
+		padding-left: 15px;
+	img { 
+	float:none; 
+}
+	}
  .list {
+ 	border: 2px darkgray solid;
  	float: none;
  	min-width: 90%;
  	margin-left: 10px;
